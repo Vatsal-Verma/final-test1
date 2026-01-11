@@ -44,8 +44,8 @@ jobs:
             // If nothing existed before, this is the first one
             if (previousItems.length === 0) {
               const message = isPR
-                ? `🎉 **Welcome @${author}!**\n\nThank you for submitting your **first Pull Request** to this repository 🚀\n\nWe really appreciate you taking the time to contribute. A maintainer will review your changes soon — feel free to respond to any feedback or questions.\n\n![Thank you](https://raw.githubusercontent.com/Vatsal-Verma/testing-/main/.github/images/ap-blue.svg)`
-                : `👋 **Hi @${author}, welcome!**\n\nThanks for opening your **first issue** 🎉\n\nWe appreciate you helping improve this project by reporting problems or suggesting enhancements. A maintainer will take a look shortly.\n\n![Welcome](https://raw.githubusercontent.com/Vatsal-Verma/testing-/main/.github/images/ap-blue.svg)`;
+                ? `🎉 **Welcome @${author}!**\n\nThank you for submitting your **first Pull Request** to this repository 🚀\n\nWe really appreciate you taking the time to contribute. A maintainer will review your changes soon — feel free to respond to any feedback or questions.\n\n![Thank you](https://raw.githubusercontent.com/Vatsal-Verma/final-test1/main/.github/images/ap-blue.svg)`
+                : `👋 **Hi @${author}, welcome!**\n\nThanks for opening your **first issue** 🎉\n\nWe appreciate you helping improve this project by reporting problems or suggesting enhancements. A maintainer will take a look shortly.\n\n![Welcome](https://raw.githubusercontent.com/Vatsal-Verma/final-test1/main/.github/images/ap-blue.svg)`;
 
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
